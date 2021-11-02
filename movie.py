@@ -97,10 +97,10 @@ for j in pages:
 
 def delete():
     try:
-            connection = psycopg2.connect(user="postgres",
-                                          password="king.kian007",
-                                          host="127.0.0.1",
-                                          port="5432",
+            connection = psycopg2.connect(user="belabelabela",
+                                          password="belabelabela",
+                                          host="belabelabela",
+                                          port="belabelabela",
                                           database="dbpython")
             cursor2 = connection.cursor()
             query2 = "delete from movies"
