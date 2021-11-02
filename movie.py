@@ -67,10 +67,10 @@ for j in pages:
     listh = []
     for i,j in zip(rate2, movies_title2):
         try:
-            connection = psycopg2.connect(user="postgres",
-                                          password="king.kian007",
-                                          host="127.0.0.1",
-                                          port="5432",
+            connection = psycopg2.connect(user="belabelabela",
+                                          password="belabelabela",
+                                          host="belabelabela",
+                                          port="belabelabela",
                                           database="dbpython")
 
             #cursor = connection.cursor()
